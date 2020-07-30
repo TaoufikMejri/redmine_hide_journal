@@ -10,7 +10,7 @@
             <% end %>
           <% else %>
             <%= link_to hide_journal_path(journal_id: journal.id, show: true), class: 'journal-link', style: 'margin-right: 10px;', title: 'show' do %>
-              <%= image_tag 'magnifier.png' %>
+              <%= image_tag 'opera-glasses.png', plugin: 'redmine_hide_journal' %>
             <% end %>
           <% end %>
         <% end %>
