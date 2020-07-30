@@ -1,5 +1,6 @@
 require 'redmine_hide_journal/journals_controller_patch'
 require 'redmine_hide_journal/journal_patch'
+require 'redmine_hide_journal/issues_controller_patch'
 
 Redmine::Plugin.register :redmine_hide_journal do
   name 'Redmine Hide Journal plugin'
